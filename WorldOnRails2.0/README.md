@@ -1,4 +1,4 @@
-# World on Rails
+# World on Rail2.0
 
 
 ## Getting Started
@@ -14,7 +14,7 @@
 python evaluate_nocrash.py --town=Town01 --weather=train --resume
 ```
 * Use defaults for _RAILS_.
-
+* --OrigiCon=1 is use NSGA-II to search and default is 0 for original vehicle characteristics setting.
 
 ### Pretrained weights
 * [The model we used (NoCrash)](https://utexas.box.com/s/54m24gz5xwy1oagsqmgosch7pq561h2e)
