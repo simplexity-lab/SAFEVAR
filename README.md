@@ -21,7 +21,7 @@ We extended this work from the following aspects:
 - [CARLA 0.9.10](https://carla.readthedocs.io/en/0.9.10/)  
 - [Apollo 5.0](https://github.com/ApolloAuto/apollo/tree/v5.0.0)
 - [jMetalPy](https://github.com/jMetal/jMetalPy)
-- **Python** :for CARLA, you should refer to the [World On Rail](https://github.com/dotchen/WorldOnRails/blob/release/docs/INSTALL.md) to set up environment and the [WordOnRail2.0 Readme]() to run program; for LGSVL, you should refer to Apollo and using python 3.7;
+- **Python** :for CARLA, you should refer to the [World On Rail](https://github.com/dotchen/WorldOnRails/blob/release/docs/INSTALL.md) to set up environment and the [WordOnRail2.0 README]() to run program; for LGSVL, you should refer to Apollo and using python 3.7;
 
 ## People
 - Qi Pan
