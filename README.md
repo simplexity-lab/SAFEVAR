@@ -6,8 +6,11 @@ Autonomous driving systems (ADSs) must be sufficiently tested to ensure their sa
 This repository contains:
 
 1. **DataSet** : all the raw data for the analyses (including three settings);
-2. **Source code** of the scenario designed in the CARLA simulator and the code of the combination of the extended WOR and NSGA-II algorithm;
-3. **Source code** of scenario designed in LGSVL combined with the NSGA-II algorithm and the LGSVL simulator with our own APIs deployed;
+2. **Source code** of the scenario designed in the CARLA simulator and the code of the combination of the extended WOR and NSGA-II algorithm (RS and safeFuzzer); The "**WorldOnRails2.0**" folder contains relevant experiments and documents for Carla Sun (Carla Rain) experiment;
+3. **Source code** of scenario designed in LGSVL combined with the NSGA-II algorithm (RS and safeFuzzer) and the LGSVL simulator with our own APIs deployed; The "**LG**" folder contains relevant experiments and documents for LGSVL experiment;
+4. **Supplement**: We have provided supplementary data for RQ3.3 (in the paper) in the "Supplement" folder;
+
+
 
 ## **Contributions**
 We extended this work from the following aspects:

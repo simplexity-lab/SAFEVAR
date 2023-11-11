@@ -7,6 +7,21 @@
     - /quickstart contains main source code;
     - [/quickstart/NSGAII.py](https://github.com/simplexity-lab/SAFEVAR/blob/main/LG/PythonAPI-master/quickstart/NSGAII.py) is the program's entry point;
     - [/quickstart/lgsvl](https://github.com/simplexity-lab/SAFEVAR/tree/main/LG/PythonAPI-master/quickstart/lgsvl) includes the modified client API for LGSVL;
+
+## Environment
+
+* Please follow [Install.md](https://github.com/lgsvl/PythonAPI) to to setup the python environment
+
+## Evaluation
+
+* Run LGSVL simulator;
+### Run
+```bash
+python NSGAII.py
+```
+
+
+
 ## Prerequisite
 - Please ensure that you have one Windows computer and one Linux computer for the deployment of LGSVL emulator and Apollo, respectively；
 - Ensure that LGSVL and Apollo need to communicate on the same LAN;
