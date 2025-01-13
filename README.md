@@ -6,7 +6,7 @@ Autonomous driving systems (ADSs) must be sufficiently tested to ensure their sa
 This repository contains:
 
 1. **DataSet** : all the raw data for the analyses (including two settings);
-2. **Source code** of the scenario designed in the CARLA simulator and the code of the combination of the extended WOR and NSGA-II algorithm (RS); The "**WorldOnRails2.0**" folder contains relevant experiments and documents for Carla Sun (Carla Rain) experiment;
+2. **Source code** of the scenario designed in the CARLA simulator and the code of the combination of the extended WOR and NSGA-II algorithm (RS); The "**WorldOnRails2.0**" and "**mmfn**" folder contains relevant experiments and documents for Carla Sun (Carla Rain) experiment;
 4. **Supplement**: We have provided supplementary data for RQ3.3 (in the paper) in the "Supplement" folder;
 
 
@@ -21,10 +21,11 @@ We extended this work from the following aspects:
 ## **Prerequisite**
 - [CARLA 0.9.10](https://carla.readthedocs.io/en/0.9.10/)  
 - [jMetalPy](https://github.com/jMetal/jMetalPy)
-- **Python** :for CARLA, you should refer to the [World On Rail](https://github.com/dotchen/WorldOnRails/blob/release/docs/INSTALL.md) to set up environment and the [WordOnRail2.0 README]() to run program; for LGSVL, you should refer to Apollo and using python 3.7;
+- **Python** :for World On Rails, you should refer to the [World On Rails](https://github.com/dotchen/WorldOnRails/blob/release/docs/INSTALL.md) to set up environment and the [WordOnRail2.0 README]() to run program; for MMFN, you should refer to [MMFN](https://github.com/Kin-Zhang/mmfn) to set up the environment and run program;
 
 ## People
 - Qi Pan
 - Paolo Arcaini http://group-mmm.org/~arcaini/
-- Tao Yue https://www.simula.no/people/tao
-- Shaukat Ali https://www.simula.no/people/shaukat
+- Tao Yue
+- Tiexin Wang 
+- Jianwei Ma
