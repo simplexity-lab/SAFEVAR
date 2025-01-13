@@ -1,0 +1,41 @@
+# will auto change based on env path we already export.
+absolute_path: ''
+carla_sh_path: ''
+
+host: 'localhost'
+port: 2000
+trafficManagerPort: 0
+if_open_carla: False # if not pls check the port is correct
+record: ''
+repetitions: 1
+resume: False
+checkpoint: None
+
+# Seed used by the TrafficManager (default: 0)
+trafficManagerSeed: 0
+timeout: 20000
+no_rendering: False
+
+# ============== for all route test=============== #
+debug: False
+
+# only for debug ===> or just test the agent
+routes: 'leaderboard/data/only_one_town.xml'
+# towns: ['Town01', 'Town03', 'Town06', 'Town07']
+#towns: ['Town02', 'Town04', 'Town05', 'Town10']
+#routes: 'leaderboard/data/validation_routes/'
+
+scenarios: 'leaderboard/data/no_scenarios.json'
+
+track: 'MAP' # 'SENSORS'
+
+# ====================== Expert Agent ========================= #
+# agent: 'team_code/expert_agent/human_agent.py'
+# agent: 'team_code/expert_agent/auto_pilot.py'
+agent: 'team_code/expert_agent/mmfn_pilot.py'
+defaults:
+  - agent_config: expert
+
+# agent: 'team_code/expert_agent/mmfn_ppilot.py'
+# defaults:
+#   - agent_config: force_expert
