@@ -1,7 +1,7 @@
 # **SAFEVAR**
 
 ## **Description**
-Autonomous driving systems (ADSs) must be sufficiently tested to ensure their safety. Though various ADS testing methods have shown promising results, they are limited to a fixed set of vehicle characteristics settings (VCSs). The impact of variations in vehicle characteristics (e.g., mass, tire friction) on the safety of ADSs has not been sufficiently and systematically studied. Such variations are often due to wear and tear, production errors, etc., which may lead to unexpected driving behaviours of ADSs. To this end, in this paper, we propose a method, named SafeVar, to systematically find minimum variations to the original vehicle characteristics setting, which affect the safety of the ADS deployed on the vehicle. To evaluate the effectiveness of SafeVar, we employed an ADS and conducted experiments with two driving scenarios. Results show that SafeVar, equipped with NSGA-II, generates more critical VCSs that put the vehicle into unsafe situations, as compared with the baseline algorithm: Random Search. We also identified critical vehicle characteristics and reported to which extent varying their settings put the ADS vehicle into unsafe situations
+Autonomous driving systems (ADSs) must be sufficiently tested to ensure their safety. Though various ADS testing methods have shown promising results, they are limited to a fixed vehicle characteristics setting (VCS). The impact of variations in vehicle characteristics (e.g., mass, tire friction) on the safety of ADSs has not been sufficiently and systematically studied. Such variations are often due to wear and tear, production errors, etc., which may lead to unexpected driving behaviours of ADSs. To this end, in this paper, we propose a method, named SAFEVAR, to systematically find minimum variations to the original vehicle characteristics setting, which affect the safety of the ADS deployed on the vehicle. To evaluate the effectiveness of SAFEVAR, we employed two ADSs and conducted experiments with two driving scenarios. Results show that SAFEVAR, equipped with NSGA-II, generates more critical VCSs that put the vehicle into unsafe situations, as compared with the baseline algorithm. We also identified critical vehicle characteristics and reported to which extent varying their settings put the ADS vehicle into unsafe situations.
 
 This repository contains:
 
@@ -16,7 +16,7 @@ We extended this work from the following aspects:
 - We proposed SAFEVAR to generate variations to vehicle characteristics that threaten the safety of the ADS (not the Automatic Emergency Brake operation); 
 - We designed more realistic driving scenarios (e.g., pedestrians crossing the road); 
 - With the CARLA simulator, we conducted experiments considering two different weather conditions; 
-- To more comprehensively evaluate SAFEVAR, we introduced more safety metrics in addition to the safety metric safetyDegree that we use to drive the search (i.e., Time Exposed Time-to-collision (TET), Time Integrated Time-to-collision (TIT), and average deceleration (aveDece)).
+- To more comprehensively evaluate SAFEVAR, we introduced more safety metrics in addition to the safety metric safetyDegree that we use to drive the search (i.e., Time Exposed Time-to-collision (TET) and Time Integrated Time-to-collision (TIT)).
 
 ## **Prerequisite**
 - [CARLA 0.9.10](https://carla.readthedocs.io/en/0.9.10/)  
