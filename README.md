@@ -13,12 +13,14 @@ This repository contains:
 
 
 ## **Contributions**
-We extended this work from the following aspects:
-- We proposed SAFEVAR to generate variations to vehicle characteristics that threaten the safety of the ADS (not the Automatic Emergency Brake operation); 
-- We designed more realistic driving scenarios (e.g., pedestrians crossing the road); 
-- With the CARLA simulator, we conducted experiments considering two different weather conditions; 
-- To more comprehensively evaluate SAFEVAR, we introduced more safety metrics in addition to the safety metric safetyDegree that we use to drive the search (i.e., Time Exposed Time-to-collision (TET) and Time Integrated Time-to-collision (TIT)).
 
+We extended this work from the following aspects:
+
+- We proposed SAFEVAR to systematically generate VCS that threaten the safety of Autonomous Driving Systems (ADS), focusing beyond Automatic Emergency Brake operations;
+- We formalized the problem as a multi-objective search problem and utilized NSGA-II to identify critical vehicle characteristics that negatively affect ADS safety;
+- We designed realistic and diverse driving scenarios (e.g., pedestrians crossing the road) to better reflect real-world challenges;
+- With the CARLA simulator, we conducted experiments considering two ADSs (i.e., WOR and MMFN) under two different weather conditions to investigate the combined impact of vehicle characteristics and environmental factors on ADS safety;
+- To comprehensively evaluate SAFEVAR, we introduced additional safety metrics, including Time Exposed Time-to-Collision (TET) and Time Integrated Time-to-Collision (TIT), alongside the existing safety metric, safetyDegree, used to guide the search.
 
 ## **SAFEVA Environment Configuration**
 1. Python：3.9.0, Pytorch version depends on the selected ADS.
